@@ -1,8 +1,8 @@
-> :white_check_mark: *Jeśli będziesz mieć problem z rozwiązaniem tego zadania, poproś o pomoc na odpowiednim kanale na Slacku, tj. `s5e10-php-js-the-basics` (dotyczy [mentee](https://devmentor.pl/mentoring-javascript/)) lub na ogólnodostępnej i bezpłatnej [społeczności na Discordzie](https://devmentor.pl/discord). Pamiętaj, aby treść Twojego wpisu spełniała [odpowiednie kryteria](https://devmentor.pl/jak-prosic-o-pomoc/).*
+> :white_check_mark: *Jeśli będziesz mieć problem z rozwiązaniem tego zadania, poproś o pomoc na odpowiednim kanale na Slacku, tj. `s5e11-php-js-all-about-objects` (dotyczy [mentee](https://devmentor.pl/mentoring-javascript/)) lub na ogólnodostępnej i bezpłatnej [społeczności na Discordzie](https://devmentor.pl/discord). Pamiętaj, aby treść Twojego wpisu spełniała [odpowiednie kryteria](https://devmentor.pl/jak-prosic-o-pomoc/).*
 
 &nbsp;
 
-# `#03` PHP: JavaScript, The Basics
+# `#03` PHP: JavaScript, All About Objects
 
 
 Tym razem w pliku `app.js` znajdziesz rozbudowaną strukturę, która przechowuje informacje o książkach. Nazwa właściwości obiektu to number ISBN książki. Przypisana do niej wartość to obiekt, który przechowuje informacje o książce identyfikującej się tym numerem ISBN.
