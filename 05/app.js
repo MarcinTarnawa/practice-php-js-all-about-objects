@@ -18,17 +18,25 @@ class Student {
       const subjectGrades = this.grades[subject];
       if (!subjectGrades || subjectGrades.length === 0) return 0;
       
-      const sum = subjectGrades.reduce((acc, curr) => acc + curr, 0);
-      return sum / subjectGrades.length;
+      // const sum = subjectGrades.reduce((acc, curr) => acc + curr, 0);
+      // return sum / subjectGrades.length;
+      return this.getSum(subjectGrades);
     }
 
     const allGrades = Object.values(this.grades).flat();
     if (allGrades.length === 0) return 0;
 
-    const totalSum = allGrades.reduce((acc, curr) => acc + curr, 0);
-    const average = totalSum / allGrades.length;
+    // const totalSum = allGrades.reduce((acc, curr) => acc + curr, 0);
+    // const average = totalSum / allGrades.length;
+    const average = this.getSum(allGrades);
     
     return Number(average.toFixed(2));
+  }
+
+  getSum(arr) {
+    if (arr.length === 0) return 0;
+    const sum = arr.reduce((acc, curr) => acc + curr, 0);
+    return sum / arr.length;
   }
 }
 

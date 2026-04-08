@@ -43,11 +43,15 @@ books.getAuthor = function(isbn) {
 
 books.getTitle = function(isbn, lang) {
 
-       if(typeof this[isbn] === 'undefined') {
+    if(typeof this[isbn] === 'undefined') {
         // taki ISBN nie istnieje w moim spisie
         return null;
     }
 
+    if(typeof this[isbn]['title'] === 'undefined') {
+        // taki tytuł nie istnieje w moim spisie
+        return null;
+    }
     const Title = this[isbn]['title'][lang];
     if(Title) {
         // zwracam informacje o autorze
